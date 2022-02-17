@@ -30,6 +30,7 @@ function App() {
       'Friday',
       'Saturday',
     ];
+
     let day = days[d.getDay()];
     let date = d.getDate();
     let month = months[d.getMonth()];
@@ -37,7 +38,6 @@ function App() {
 
     return `${day} ${month} ${date}, ${year}`;
   };
-
   return (
     <div className='app'>
       <main>
